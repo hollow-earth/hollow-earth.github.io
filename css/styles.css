@@ -9,11 +9,11 @@ header{
     color: white;
     width:100%;
     min-height: 69px;
-    position:absolute;
-    top:0;
-    left:0;
+    position: fixed;
+    top: 0vh;
+    left: 0;
     padding-left: 2%;
-    z-index: 1;
+    z-index: 2;
 }
 header h3 {
     margin-top: 5px;
@@ -29,11 +29,16 @@ header p {
 footer{
     background-color: #804FB9;
     color: white;
-    width:100%;
-    position:absolute;
-    bottom:0;
-    left:0;
+    width: 100%;
+    position: fixed;
+    bottom: 0vh;
+    left: 0;
     padding-left: 2%;
+    z-index: 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #372050;
+    z-index: 1;
 }
 
 footer p{
@@ -46,16 +51,16 @@ footer p{
     color: white;
     min-height: 20px;
     width:100%;
-    position:absolute;
+    position: fixed;
     padding-left: 2%;
-    top:70px;
+    top: 69px;
     left:0;
-    border-bottom-style: solid;
-    border-color: white;
-    border-bottom-width: 1px;
-    border-top-width: 1px;
+    border-style: solid;
+    border-color: #372050;
+    border-width: 1px 0px;
     vertical-align: top;
     font-size: 0px;
+    z-index: 2;
 }
 
 
@@ -85,11 +90,12 @@ footer p{
 }
 
 #main {
-    background-color: khaki;
+    background-color: rgb(191, 192, 243);
     color: black;
     width: 100%;
     position:absolute;
     padding-left: 2%;
-    top:122px;
+    top: 97px;
     left: 0px;
+    z-index: 0;
 }
