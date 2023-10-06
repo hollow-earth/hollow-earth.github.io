@@ -3911,5 +3911,5 @@ input, select, textarea {
 span.rev { unicode-bidi:bidi-override; direction:rtl }
 span.rev.email:before { content:"em.notorp" }
 span.rev.email:after { content:"uaerac.s" }
-span.rev.phone:before { content:"6571 " }
+span.rev.phone:before { content:"6571" }
 span.rev.phone:after { content:"(814) 1+" }
